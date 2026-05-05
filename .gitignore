@@ -1,0 +1,63 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments (if you ever use local venv)
+venv/
+.env/
+.env.*
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Docker (optional local artifacts)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Frontend (future React)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Test / cache artifacts
+# =========================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Uploads / runtime files (if you later persist locally)
+# =========================
+uploads/
+tmp/
